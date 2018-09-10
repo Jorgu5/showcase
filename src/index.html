@@ -2,16 +2,109 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Gulp Starter Kit</title>
+    <title>Atel.io</title>
     <!-- build:css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- endbuild -->
   </head>
   <body>
-    <h1>Gulp starter kit</h1>
+    <header class="bar">
+      <button class="bar_button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="bar_brand">
+        <img src="images/logo.svg" alt="atelio brand">
+        <h2>Freelance Workshop &nbsp; | &nbsp; <s>Agency</s>  &nbsp; | &nbsp;  <s>Software House</s></h2>
+      </div>
+      <div class="bar_navlast">
+        <a href="#">Check our Availability</a>
+      </div>
+    </header>
+    <nav class="site-nav" id="nav">
+      <ul id="Dots" class="site-nav--dots">
+        <li class="pageLink" id="home"><span>H</span></li>
+      </ul>
+    </nav>
+    <section class="hero page">
+      <div class="text">
+        <h1>Creative</br>Developer</h1>
+        <span>We do apps, websites.</span>
+      </div>
+      <figure class="anim-element"><object type="image/svg+xml" data="/images/head.svg"></figure></object>
+    </section>
+    <section class="page">
+      <div class="projects">
+        <div class="projects_slider">
+          <div class="projects_slider--single">
+            <div class="projects_slider--single-image">
+              <blockquote>
+                We’ve been expecting something from high shelf,
+                both on the design and functionality side, this
+                freelancer made what we’ve been asking for. </br></br>
+                 
+                Thank you!
+              </blockquote>
+            </div>
+          </div>
+          <div class="projects_slider--single">
+            <div class="projects_slider--single-image">
+              <blockquote>
+                We’ve been expecting something from high shelf,
+                both on the design and functionality side, this
+                freelancer made what we’ve been asking for. </br></br>
+                 
+                Thank you!
+              </blockquote>
+            </div>
+          </div>
+          <div class="projects_slider--single">
+            <div class="projects_slider--single-image">
+              <blockquote>
+                We’ve been expecting something from high shelf,
+                both on the design and functionality side, this
+                freelancer made what we’ve been asking for. </br></br>
+                 
+                Thank you!
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="projects_nav">
+           <div class="projects_nav--btns">
+            <button>Project overview</button>
+            <!-- <button>View site</button>-->
+          </div>             
+          <img src="images/project-animation.svg" alt="design element"/>
+          <div class="projects_nav--arrows">
+            <div class="projects_nav--arrow">
+              <a role="button" class="nav-left" id="goLeft">Go left</a>
+            </div>
+            <div class="projects_nav--arrow">
+              <a role="button" class="nav-right" id="goRight">Go right</a>
+            </div>
+          </div>
+          <div class="projects_nav--client">
+            <h4>WeMen</h4>
+            <span>Magazyn dla mężczyzn</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page">
+      <p>Dzidek Kamola</p>
+    </section>
+    <section class="page">
+      <p>Dalej dalej</p>
+    </section>
     <!-- build:js -->
+
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/script.js"></script>
+
     <!-- endbuild  -->
   </body>
 </html>
